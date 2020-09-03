@@ -12,8 +12,8 @@ The [Python] library for communicating with [jomiel].
 
 ## Installation
 
-`jomiel-comm` is intended to be `git-subtree`'d into your project.
-Installation from [PyPI] is not currently supported.
+`jomiel-comm` isn't [PyPI] ready, you can subtree (see git-subtree) it
+into your project source tree, instead.
 
 ## Acknowledgements
 
