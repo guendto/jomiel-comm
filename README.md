@@ -1,5 +1,9 @@
 # jomiel-comm
 
+![code-style]
+
+[code-style]: https://img.shields.io/badge/code%20style-black-000000.svg
+
 The [Python] library for communicating with [jomiel].
 
 ## License
