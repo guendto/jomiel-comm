@@ -6,7 +6,7 @@ requires = [
 ]
 build-backend = "setuptools.build_meta"
 
-[tools.setuptools_scm]
+[tool.setuptools_scm]
 write_to = "src/jomiel_comm/__init__.py"
 write_to_template = "__version__ = {version!r}"
 
