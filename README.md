@@ -20,6 +20,18 @@ The [Python] library for communicating with [jomiel].
 pip install jomiel-comm
 ```
 
+## Building packages from repo
+
+```shell
+git clone https://github.com/guendto/jomiel-comm
+cd jomiel-comm
+git tag -s KEYID -am 'jomiel-comm version VERSION (INITIALS)' TAGNAME
+pip install pep517
+python -m pep517.build [-s|-b] .
+```
+
+The packages are created under the dist/ dir.
+
 ## Acknowledgements
 
 `jomiel-comm` uses [pre-commit] and its many hooks to lint and format
