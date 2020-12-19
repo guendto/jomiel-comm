@@ -6,10 +6,6 @@
 
 The [Python] library for communicating with [jomiel].
 
-## License
-
-`jomiel-comm` is licensed under the [Apache License version 2.0][aplv2].
-
 ## Requirements
 
 `jomiel-comm` is written for [Python] 3.6 and later.
@@ -31,6 +27,10 @@ python -m pep517.build [-s|-b] .
 ```
 
 The packages are created under the dist/ dir.
+
+## License
+
+`jomiel-comm` is licensed under the [Apache License version 2.0][aplv2].
 
 ## Acknowledgements
 
