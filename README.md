@@ -6,18 +6,31 @@
 
 The [Python] library for communicating with [jomiel].
 
-## License
-
-`jomiel-comm` is licensed under the [Apache License version 2.0][aplv2].
-
 ## Requirements
 
 `jomiel-comm` is written for [Python] 3.6 and later.
 
 ## Installation
 
-`jomiel-comm` isn't [PyPI] ready, you can subtree (see git-subtree) it
-into your project source tree, instead.
+```shell
+pip install jomiel-comm
+```
+
+## Building packages from repo
+
+```shell
+git clone https://github.com/guendto/jomiel-comm
+cd jomiel-comm
+git tag -s KEYID -am 'jomiel-comm version VERSION (INITIALS)' TAGNAME
+pip install pep517
+python -m pep517.build [-s|-b] .
+```
+
+The packages are created under the dist/ dir.
+
+## License
+
+`jomiel-comm` is licensed under the [Apache License version 2.0][aplv2].
 
 ## Acknowledgements
 
