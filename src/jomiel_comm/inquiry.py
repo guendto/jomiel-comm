@@ -88,7 +88,7 @@ def inquire(socket, input_uri, timeout=60):
 
     def inquiry_new():
         """Create a new media inquiry message."""
-        from jomiel_messages.protobuf.v1alpha1.message_pb2 import (
+        from jomiel_messages.protobuf.v1beta1.message_pb2 import (
             Inquiry,
         )
 
@@ -103,10 +103,10 @@ def inquire(socket, input_uri, timeout=60):
             obj: The response message
 
         """
-        from jomiel_messages.protobuf.v1alpha1.message_pb2 import (
+        from jomiel_messages.protobuf.v1beta1.message_pb2 import (
             Response,
         )
-        from jomiel_messages.protobuf.v1alpha1.status_pb2 import (
+        from jomiel_messages.protobuf.v1beta1.status_pb2 import (
             STATUS_CODE_OK,
         )
 
