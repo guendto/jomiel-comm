@@ -21,17 +21,19 @@ The [Python] library for communicating with [jomiel].
 pip install jomiel-comm
 ```
 
-## Building packages from repo
+Install from the repository, e.g. for development:
 
 ```shell
 git clone https://github.com/guendto/jomiel-comm
 cd jomiel-comm
-git tag -s KEYID -am 'jomiel-comm version VERSION (INITIALS)' TAGNAME
-pip install pep517
-python -m pep517.build [-s|-b] .
+pip install -e .  # Install a project in editable mode
 ```
 
-The packages are created under the dist/ dir.
+Or, if you'd rather not install in "editable mode":
+
+```shell
+pip install git+https://github.com/guendto/jomiel-comm
+```
 
 ## License
 
