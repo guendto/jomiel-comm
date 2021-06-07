@@ -11,13 +11,8 @@
 
 The [Python] library for communicating with [jomiel].
 
-[jomiel]: https://github.com/guendto/jomiel/
-
-## Requirements
-
-`jomiel-comm` is written for [Python] 3.6 and later.
-
 [python]: https://www.python.org/about/gettingstarted/
+[jomiel]: https://github.com/guendto/jomiel/
 
 ## Installation
 
